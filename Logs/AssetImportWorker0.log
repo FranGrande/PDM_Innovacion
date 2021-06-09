@@ -15,11 +15,11 @@ C:/Users/gabriel/Desktop/git/PDM_Innovacion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53309
+59222
 Successfully changed project path to: C:/Users/gabriel/Desktop/git/PDM_Innovacion
 C:/Users/gabriel/Desktop/git/PDM_Innovacion
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.00 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.81 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,158 +35,163 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006891 seconds.
+Registered in 0.002644 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.81 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.183 seconds
+- Completed reload, in  3.425 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002846 seconds.
+Registered in 0.001231 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
+- Completed reload, in  1.871 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.7 MB.
+System memory in use before: 84.8 MB.
 System memory in use after: 84.8 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 2.117000 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.054400 ms MarkObjects: 1.790200 ms  DeleteObjects: 0.107200 ms)
+Total: 2.209100 ms (FindLiveObjects: 0.202300 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.861800 ms  DeleteObjects: 0.091800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Background/Gray.png
-  artifactKey: Guid(f4a95882c81ceaf44a79c906ba99cfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Gray.png using Guid(f4a95882c81ceaf44a79c906ba99cfeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee87a7b2377d18f3e717cda162c06ff') in 0.239402 seconds
-  Import took 0.258601 seconds .
+  path: Assets/Sprites/Items/Fruits
+  artifactKey: Guid(e3f774c7c0f7a454ebf4e533e979d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits using Guid(e3f774c7c0f7a454ebf4e533e979d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb11bd88397c20f2cf55e5564655545') in 0.117250 seconds
+  Import took 0.121483 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Sprites/Background/Purple.png
-  artifactKey: Guid(ae3aaf11dbfdc274d8ad23ef04eac768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Purple.png using Guid(ae3aaf11dbfdc274d8ad23ef04eac768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab203f67e3634a7c08e7463777644a9') in 0.053275 seconds
-  Import took 0.056335 seconds .
+  Time since last request: 0.000361 seconds.
+  path: Assets/Sprites/Items
+  artifactKey: Guid(0f099f019c58d9645adf1953bea7502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items using Guid(0f099f019c58d9645adf1953bea7502b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f56405a367d37e454b45e92b42a9c1e') in 0.011312 seconds
+  Import took 0.015609 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Sprites/Background/Yellow.png
-  artifactKey: Guid(dc365e4b1ac11244384e83a0b8a35342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Yellow.png using Guid(dc365e4b1ac11244384e83a0b8a35342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5549e00cbd3e729c55c532afc7a7a736') in 0.051007 seconds
-  Import took 0.055096 seconds .
+  Time since last request: 1.035266 seconds.
+  path: Assets/Sprites/Items/Fruits/Apple.png
+  artifactKey: Guid(5138b4d65c5d8064fb462c7e99b4410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Apple.png using Guid(5138b4d65c5d8064fb462c7e99b4410e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9172a5c4d893a5bcf33c70f3c1c7f2f8') in 0.171997 seconds
+  Import took 0.177479 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Sprites/Background/Green.png
-  artifactKey: Guid(99c4cff4c15576345b0f8f428a03024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Green.png using Guid(99c4cff4c15576345b0f8f428a03024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2424e423cb7e254a6298c66f389ee90f') in 0.055779 seconds
-  Import took 0.059755 seconds .
+  Time since last request: 0.000464 seconds.
+  path: Assets/Sprites/Items/Fruits/Orange.png
+  artifactKey: Guid(c1d922832c2514d4483497230ff149aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Orange.png using Guid(c1d922832c2514d4483497230ff149aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5b511afc868fc5ba917643356c06b7') in 0.066233 seconds
+  Import took 0.071725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Sprites/Background/Blue.png
-  artifactKey: Guid(23630f762eccb9943b81e292d9d63a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Blue.png using Guid(23630f762eccb9943b81e292d9d63a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca22f2c45b51f591323c79e6224afc3') in 0.047557 seconds
-  Import took 0.051617 seconds .
+  Time since last request: 0.000526 seconds.
+  path: Assets/Sprites/Items/Fruits/Melon.png
+  artifactKey: Guid(0d03c10934a1e264cb9d3f4655e51dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Melon.png using Guid(0d03c10934a1e264cb9d3f4655e51dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32b1821e04391642a17d037d8ea57fc') in 0.091569 seconds
+  Import took 0.098949 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/Sprites/Background/Fondo.png
-  artifactKey: Guid(ef4de412fb1a86341b1caaeeb160c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Fondo.png using Guid(ef4de412fb1a86341b1caaeeb160c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66bf5865fb2c37cc24bd0b33bf353ae') in 0.033016 seconds
-  Import took 0.044251 seconds .
+  Time since last request: 0.000570 seconds.
+  path: Assets/Sprites/Items/Fruits/Pineapple.png
+  artifactKey: Guid(53cb6efbb9a71b54089e7bb665036926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Pineapple.png using Guid(53cb6efbb9a71b54089e7bb665036926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738fbdd87c9cd8e66346fe02de779003') in 0.056403 seconds
+  Import took 0.064485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/Sprites/Background/Pink.png
-  artifactKey: Guid(0e26e34b8e888ba4e9b556f6c2208ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Pink.png using Guid(0e26e34b8e888ba4e9b556f6c2208ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68c50f7a084fecaf13caa4d9bcde582') in 0.049221 seconds
-  Import took 0.070612 seconds .
+  Time since last request: 0.000434 seconds.
+  path: Assets/Sprites/Items/Fruits/Bananas.png
+  artifactKey: Guid(4fd5db8dd97f7a84e962e146e0de9d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Bananas.png using Guid(4fd5db8dd97f7a84e962e146e0de9d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfe9341c2cf8eb411f8119c85b9ea16') in 0.062704 seconds
+  Import took 0.069622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Sprites/Background/Brown.png
-  artifactKey: Guid(277cfcc101cccc24d85ab00d308e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Background/Brown.png using Guid(277cfcc101cccc24d85ab00d308e54cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264c3348bee64a3acd2065ddadd0b03b') in 0.046740 seconds
-  Import took 0.051743 seconds .
+  Time since last request: 0.000452 seconds.
+  path: Assets/Sprites/Items/Fruits/Strawberry.png
+  artifactKey: Guid(c51331a8d55f28f45a8891a1dcb49338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Strawberry.png using Guid(c51331a8d55f28f45a8891a1dcb49338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cc2ac0ef9390cc7f56f4b54fc345b5') in 0.062791 seconds
+  Import took 0.068521 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 709.060367 seconds.
-  path: Assets/Sprites/20 Enemies.png
-  artifactKey: Guid(f724ed2263a54ac48a8dcf7d11fe90e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/20 Enemies.png using Guid(f724ed2263a54ac48a8dcf7d11fe90e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9f82d8c6757af64cfc33ee29ad3d7b') in 0.053921 seconds
-  Import took 0.069903 seconds .
+  Time since last request: 0.000501 seconds.
+  path: Assets/Sprites/Items/Fruits/Cherries.png
+  artifactKey: Guid(2c5ded50db1e0aa4e9814dfc4033ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Cherries.png using Guid(2c5ded50db1e0aa4e9814dfc4033ed70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8443c4686e27fa169140e132cb21888') in 0.090377 seconds
+  Import took 0.097603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Sprites/Hello.png
-  artifactKey: Guid(9c4e775a8a5442c40ab05c0a26a753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Hello.png using Guid(9c4e775a8a5442c40ab05c0a26a753e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1295017b9c24eb76b42b28c407a03b') in 0.144531 seconds
-  Import took 0.147317 seconds .
+  Time since last request: 0.000678 seconds.
+  path: Assets/Sprites/Items/Fruits/Kiwi.png
+  artifactKey: Guid(7ad96bfbfc4756d499a08a17f6202dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Kiwi.png using Guid(7ad96bfbfc4756d499a08a17f6202dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211de16d2ef5bdf67703f8e743d0e235') in 0.103746 seconds
+  Import took 0.110678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.117911 seconds.
-  path: Assets/Sprites/Terrain
-  artifactKey: Guid(d0b1b2fbd2b1452488c0e5203db866ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Terrain using Guid(d0b1b2fbd2b1452488c0e5203db866ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf11550c54cbaf41032ac0105b737bb1') in 0.008775 seconds
-  Import took 0.011990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028584 seconds.
-  path: Assets/Sprites/Terrain/Piso.png
-  artifactKey: Guid(b3fffa16725623843a428735c1092e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Terrain/Piso.png using Guid(b3fffa16725623843a428735c1092e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795775c7df93e860caa4b6a31864f9a7') in 0.014449 seconds
-  Import took 0.017819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Sprites/Terrain/Terrain (16x16).png
-  artifactKey: Guid(3dd7e5a2e428a3e4a9aafeabac94d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Terrain/Terrain (16x16).png using Guid(3dd7e5a2e428a3e4a9aafeabac94d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2f343fdb69abb1d9937a9059a5c0c') in 0.085312 seconds
-  Import took 0.088400 seconds .
+  Time since last request: 0.000514 seconds.
+  path: Assets/Sprites/Items/Fruits/Collected.png
+  artifactKey: Guid(535ced8581e682f4fb64ab66cb80b16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Items/Fruits/Collected.png using Guid(535ced8581e682f4fb64ab66cb80b16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c1dd355842da277cb51a750008fb25') in 0.056551 seconds
+  Import took 0.062676 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001440 seconds.
+Registered in 0.001295 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
+- Completed reload, in  0.972 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 4.154000 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.121600 ms MarkObjects: 3.675500 ms  DeleteObjects: 0.039200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.438 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.3 MB.
 System memory in use after: 87.5 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2308.
-Total: 3.793000 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.115600 ms MarkObjects: 3.315700 ms  DeleteObjects: 0.034300 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 3.897900 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.182200 ms MarkObjects: 3.335200 ms  DeleteObjects: 0.041300 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
