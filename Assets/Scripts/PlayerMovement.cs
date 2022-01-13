@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    // Start is called before the first frame update
     public float Speed;
     public float JumpForce;
+    //public float doubleJumpSpeed = 2.5f;
+    //private bool canDoubleJump;
 
 
-    private Rigidbody2D Rigidbody2D;
-    private float Horizontal;
-    private bool Grounded;
-    private Animator Animator;
+    public Rigidbody2D Rigidbody2D;
+    public float Horizontal;
+    public bool Grounded;
+    public Animator Animator;
 
     void Start()
     {
@@ -20,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
         Animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
@@ -41,8 +41,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.UpArrow) && Grounded)
         {
-
+            //canDoubleJump = true;
             Jump();
+            Animator.SetBool("runnig", false);
+
+            /*if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                if (canDoubleJump)
+                {
+                    Animator.SetBool("doubleJump", true);
+                    Rigidbody2D.AddForce(Vector2.up * doubleJumpSpeed);
+                    canDoubleJump = false;
+                }
+            }*/
         }
 
     }
@@ -50,6 +61,27 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         Rigidbody2D.velocity = new Vector2(Horizontal*Speed, Rigidbody2D.velocity.y);
+
+        if(Grounded==false)
+        {
+            Animator.SetBool("jump", true);
+            Animator.SetBool("runnig", false);
+        }
+        if(Grounded==true)
+        {
+            Animator.SetBool("jump", false);
+            //Animator.SetBool("doubleJump", false);
+            Animator.SetBool("falling", false);
+        }
+
+        if (Rigidbody2D.velocity.y < 0)
+        {
+            Animator.SetBool("falling", true);
+        }
+        else if (Rigidbody2D.velocity.y > 0)
+        {
+            Animator.SetBool("falling", false);
+        }
 
     }
 

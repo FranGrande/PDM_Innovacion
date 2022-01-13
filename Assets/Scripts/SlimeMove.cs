@@ -34,8 +34,10 @@ public class SlimeMove : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            Debug.Log("Player dameged");
-            Destroy(collision.gameObject);
+            //Debug.Log("Player dameged");
+            //Destroy(collision.gameObject);
+            collision.transform.GetComponent<PlayerRespawn>().PlayerDamaged();
+
         }
 
 
